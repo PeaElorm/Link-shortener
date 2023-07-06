@@ -10,6 +10,7 @@
   border-radius: 1rem;
   height: 50vh;
   padding-top: 5%;
+  box-shadow: 10px 20px 30px #cacaca ;
 }
 
 .shortener h2{
@@ -30,6 +31,7 @@ button {
   height: 30px;
   padding: 0 10px;
   border-radius: 0.5rem;
+  height: 2.5rem;
 }
 .shortener input {
   border: 1px solid gray;
@@ -44,19 +46,22 @@ button {
   background-color: #211d27;
   border: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 .shortener form > button:hover {
   background-color:#323232;
 }
 .shortener__viewShot {
-  margin-top: 20px;
+  margin: 30px auto;
   border: 1px solid gainsboro;
   display: flex;
   justify-content: space-between;
   padding-left: 10px;
   color: rgb(64, 64, 66);
   align-items: center;
+  width: 80%;
+  height: 1.5rem;
+  border-radius: 0.4rem;
 }
 .shortener__viewShot button {
   background-color: transparent;
